@@ -3,6 +3,7 @@ The File Explorer works by giving you access to all of your computer's folders a
 It will list the available file and folders within your computer, allowing you to create, rename and delete file and folder.\
 It also allows the user to work with zip and rar files.\
 The user can select the application theme from the list to change it at runtime.\
+All file handling features are also implemented through the "Context Menu".\
 The User Interface(UI) of this application is implemented by ttkbootstrap.
 
 ## Features:
@@ -17,6 +18,7 @@ The User Interface(UI) of this application is implemented by ttkbootstrap.
 - Compress to RAR File
 - Search in Folders, Files and Files extension
 - Change The Application Theme
+- Context Menu
 
 ## Run:
 When the application is run, the system is scanned and all drives, folders, and files are extracted.
@@ -95,3 +97,8 @@ The result will be displayed in the terminal environment as follows:
 Using the combobox placed on the page, the application theme can be changed at runtime.
 
 ![Image](https://github.com/user-attachments/assets/afacda28-305b-4297-9060-3894329fdf34)
+
+## Context Menu:
+All file handling features are also implemented through the "Context Menu" and with "Right Click".
+
+![22](https://github.com/user-attachments/assets/83ba0d5a-ffcd-4509-8587-bd42bc1c29b5)
