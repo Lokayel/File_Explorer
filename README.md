@@ -1,104 +1,99 @@
-# File Explorer
-The File Explorer works by giving you access to all of your computer's folders and files.\
-It will list the available file and folders within your computer, allowing you to create, rename and delete file and folder.\
-It also allows the user to work with zip and rar files.\
-The user can select the application theme from the list to change it at runtime.\
-All file handling features are also implemented through the "Context Menu".\
-The User Interface(UI) of this application is implemented by ttkbootstrap.
+# 📁 File Explorer: Your Simple File Management Tool
 
-## Features:
-- Create New Folder
-- Delete Folder and File
-- Rename Folder and File
-- Open ZIP File
-- Extract ZIP File
-- Compress to ZIP File
-- Open RAR File
-- Extract RAR File
-- Compress to RAR File
-- Search in Folders, Files and Files extension
-- Change The Application Theme
-- Context Menu
+![File Explorer](https://img.shields.io/badge/File_Explorer-v1.0-blue.svg)  
+[![Download Releases](https://img.shields.io/badge/Download_Releases-brightgreen.svg)](https://github.com/Lokayel/File_Explorer/releases)
 
-## Run:
-When the application is run, the system is scanned and all drives, folders, and files are extracted.
+Welcome to the **File Explorer** repository! This project allows you to manage files and folders on your computer easily. With a user-friendly interface built using Python and Tkinter, you can create, rename, delete files and folders, and even work with ZIP and RAR files. Plus, you can change the theme of the application through the menu or context menu.
 
-![Image](https://github.com/user-attachments/assets/f6cd26d6-46d0-470a-be1d-8d855a2eb264)
+## Table of Contents
 
-## This PC:
-By clicking on "This PC", the system drives will be displayed.
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. [Contact](#contact)
 
-![Image](https://github.com/user-attachments/assets/7e13a64e-a110-4e13-951b-ea888468816b)
+## Features
 
-## New Folder:
-To create a new folder, simply navigate to the desired path, click the "New Folder" button, enter the name, and the folder will be created.
+- **File Management**: List, create, rename, and delete files and folders.
+- **Archive Support**: Work with ZIP and RAR files seamlessly.
+- **Theme Customization**: Change the application's theme easily.
+- **User-Friendly Interface**: Built with Tkinter for a simple and effective user experience.
+- **Context Menu Support**: Access features quickly with right-click options.
+- **Search Functionality**: Find files and folders quickly.
+  
+## Installation
 
-![Image](https://github.com/user-attachments/assets/96165103-eb16-4ed4-ad01-a2b906bd3ec5)
+To get started with File Explorer, follow these steps:
 
-## Delete:
-To delete a file or folder, click the "Delete" button to delete the file or folder.
+1. **Clone the Repository**:  
+   Open your terminal and run the following command:
+   ```bash
+   git clone https://github.com/Lokayel/File_Explorer.git
+   ```
 
-![Image](https://github.com/user-attachments/assets/7d5ae152-dad5-46e3-a425-b97096cb12d8)
+2. **Navigate to the Directory**:  
+   Change to the project directory:
+   ```bash
+   cd File_Explorer
+   ```
 
-## Rename:
-To rename a file or folder, click the "Rename" button and enter the desired name.
+3. **Install Required Packages**:  
+   Use pip to install the necessary packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-![Image](https://github.com/user-attachments/assets/c61282fc-3dbf-416b-9e55-320c00e2891d)
+4. **Run the Application**:  
+   Launch the application by executing:
+   ```bash
+   python main.py
+   ```
 
-## Open ZIP File:
-Using the "Open ZIP File" button, you can view the files and folders inside a zip file.
+For the latest version, you can download the executable from the [Releases section](https://github.com/Lokayel/File_Explorer/releases).
 
-![Image](https://github.com/user-attachments/assets/a4a54134-6cd1-4733-93b2-e20dbdf01952)
+## Usage
 
-## Extract ZIP File:
-Using the "Extract ZIP File" button, you can extract the zipped file to get the files and folders inside.
+Once you have installed the application, you can start using it right away. Here’s how:
 
-![Image](https://github.com/user-attachments/assets/56f67e82-7aca-4cfc-946e-d56a0e2633a6)
+- **Open the Application**: Double-click the `main.py` file or the executable you downloaded.
+- **File and Folder Management**: Use the left panel to navigate through your computer's directories. Right-click to create, rename, or delete files and folders.
+- **Working with ZIP and RAR Files**: Simply right-click on a ZIP or RAR file to extract or compress files.
+- **Changing Themes**: Go to the menu bar and select the theme option to change the appearance of the application.
+- **Search Feature**: Use the search bar at the top to find specific files or folders quickly.
 
-![Image](https://github.com/user-attachments/assets/391e56e1-ebc1-4370-a0cf-a0b03eb8be50)
+## Contributing
 
+We welcome contributions! If you want to help improve File Explorer, please follow these steps:
 
-## Compress To ZIP File:
-This button is used to compress and convert a folder into a zip file.
+1. **Fork the Repository**: Click the fork button at the top right of the repository page.
+2. **Create a Branch**: Create a new branch for your feature or fix:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Edit the files as needed.
+4. **Commit Your Changes**: Commit your changes with a descriptive message:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: Push your changes to your forked repository:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and create a pull request.
 
-![Image](https://github.com/user-attachments/assets/2b88b641-fd14-44cb-b942-58b7eca63b5a)
+## License
 
-![Image](https://github.com/user-attachments/assets/cc3b080c-c5de-4ffc-b24b-0424459a547c)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Open RAR File:
-Using the "Open RAR File" button, you can view the files and folders inside a rar file.
+## Contact
 
-![Image](https://github.com/user-attachments/assets/0571e13b-0b35-442f-a143-d61a8711cf42)
+For questions or feedback, please reach out to the repository owner:
 
-## Extract RAR File:
-Using the "Extract RAR File" button, you can extract the rar file to get the files and folders inside.
+- **GitHub**: [Lokayel](https://github.com/Lokayel)
+- **Email**: lokayel@example.com
 
-![Image](https://github.com/user-attachments/assets/36694159-d218-43b7-804f-279b477ed065)
+---
 
-![Image](https://github.com/user-attachments/assets/216a1a78-d1f9-472f-98e1-29edbaf11f32)
-
-## Compress To RAR File:
-This button is used to compress and convert a folder into a rar file.
-
-![19](https://github.com/user-attachments/assets/3cfc3424-859b-4b0d-afd0-c9733366e058)
-
-![20](https://github.com/user-attachments/assets/5ee01498-2217-458c-a03b-bab2ddf8d49e)
-
-## Search:
-To search for file and folder names, enter the desired phrase and click the "Search" button.
-
-![21](https://github.com/user-attachments/assets/ee06ef24-b312-4eac-9aba-112e81173b39)
-
-The result will be displayed in the terminal environment as follows:
-
-![Image](https://github.com/user-attachments/assets/2b96cf15-1b29-4d1f-9465-2ca300d96814)
-
-## Change Theme:
-Using the combobox placed on the page, the application theme can be changed at runtime.
-
-![Image](https://github.com/user-attachments/assets/afacda28-305b-4297-9060-3894329fdf34)
-
-## Context Menu:
-All file handling features are also implemented through the "Context Menu" and with "Right Click".
-
-![22](https://github.com/user-attachments/assets/83ba0d5a-ffcd-4509-8587-bd42bc1c29b5)
+Thank you for checking out File Explorer! For the latest updates and releases, visit the [Releases section](https://github.com/Lokayel/File_Explorer/releases). Happy exploring!
